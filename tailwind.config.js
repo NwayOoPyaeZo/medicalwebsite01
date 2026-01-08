@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        manrope: ["Manrope", "sans-serif"],
+      },
+      spacing: {
+        25: "100px",
+      },
+    },
   },
   plugins: [],
 }
