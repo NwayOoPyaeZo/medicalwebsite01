@@ -12,12 +12,15 @@ export default function Header() {
       {/* logo */}
       <div className="absolute top-0 bg-linear-to-b from-white to-[#F6FBFF] z-50">
         <div className="relative max-w-7xl mx-auto px-4 py-5">
-          <div className="relative left-[100.01px] top-12">
+          <div className="absolute left-[100.01px] top-12 w-[167.99px] h-12">
             <img
               src={logoSvg}
               alt="HealNet logo"
-              className="w-[167.99px] h-12 shrink-0"
+              className="absolute left-0 top-0 w-[46.99px] h-12"
             />
+            <span className="absolute left-[58.99px] top-2.5 w-27.25 h-8.5 font-inter font-normal text-[28px] leading-8.5 text-[#0069AB]">
+              HealNet
+            </span>
           </div>
 
           {/* navbar */}
