@@ -8,7 +8,7 @@ import dotGrid from '../assets/elements/dotGrid.svg'
 
 export default function Header() {
   return (
-    <header>
+    <header className="relative w-full h-280 overflow-hidden">
       {/* logo */}
       <div className="absolute top-0 bg-linear-to-b from-white to-[#F6FBFF] z-50">
         <div className="relative max-w-7xl mx-auto px-4 py-5">
