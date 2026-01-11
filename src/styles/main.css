@@ -19,3 +19,13 @@ button:focus-visible {
   outline: 3px solid #2563eb;
   outline-offset: 2px;
 }
+
+.dashed-line {
+  background: repeating-linear-gradient(
+    to bottom,
+    #B6E6FF 0px,
+    #B6E6FF 12px,
+    transparent 12px,
+    transparent 24px
+  );
+}
