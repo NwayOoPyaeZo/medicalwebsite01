@@ -166,8 +166,8 @@ const PeopleSection = () => {
                         </div>
                     </div>
                     {/* decoration */}
-                    <img src={deco01} alt="decorative element" className="relative bottom-[780px] -left-[390px] w-[116px] h-[59px] z-0" />
-                    <img src={deco01} alt="decorative element" className="relative bottom-[175px] left-[390px] w-[116px] h-[59px]" />
+                    <img src={deco01} alt="decorative element" className="relative bottom-[850px] -left-[390px] w-[116px] h-[59px] z-0" />
+                    <img src={deco01} alt="decorative element" className="relative bottom-[190px] left-[390px] w-[116px] h-[59px]" />
                 </div>
             </article>
         </section>
