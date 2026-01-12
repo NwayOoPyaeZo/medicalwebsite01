@@ -3,6 +3,7 @@ import TopServices from './components/TopServices'
 import AboutSection from './components/AboutSection'
 import HowItWorksSection from './components/HowItWorksSection'
 import PeopleSection from './components/PeopleSection'
+import ContactUs from './components/ContactUs'
 import Footer from './components/Footer'
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
         <AboutSection />
         <HowItWorksSection />
         <PeopleSection />
+        <ContactUs />
       </main>
-      <Footer />
+      
     </div>
   )
 }
