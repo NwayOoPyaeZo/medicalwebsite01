@@ -1,48 +1,48 @@
 export default function Footer() {
   return (
-    <footer className="bg-[#F2FAFF] w-full">
+    <footer className="bg-[#F2FAFF] w-full h-auto">
       {/* icons and description */}
-      <div className="w-full h-120 relative">
-        <div className="grid grid-cols-[2fr_1fr_1fr_1fr] gap-8 p-8 w-341.5 h-100 mt-16 items-start">
-          <div className="relative w-42 h-36 left-25 top-16">
-            <img src="/src/assets/images/logo.svg" alt="Logo" className="absolute left-0 top-0 w-[89.58px] h-23" />
-            <span className="absolute left-0 top-25 w-42 h-11 font-['Clash Display'] font-semibold text-[42px] leading-13 text-[#0069AB]">HealNet</span>
-            <p className="absolute top-50 w-67.25 h-12 font-['Manrope'] font-medium text-base leading-6 text-[#6d6d6d]">Experience personalized medical care from the comfort of your home.</p>
+      <div className="w-full relative py-8 md:py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-4 md:gap-8 p-4 md:p-8 max-w-7xl mx-auto items-start max-lg:justify-items-center max-lg:text-center">
+          <div className="relative w-full md:w-42 h-auto md:h-36 max-lg:flex max-lg:flex-col max-lg:items-center">
+            <img src="/src/assets/images/logo.svg" alt="Logo" className="w-[89.58px] h-23 mb-4" />
+            <span className="block w-full md:w-42 font-['Clash Display'] font-semibold text-2xl md:text-[42px] leading-8 md:leading-13 text-[#0069AB] mb-3">HealNet</span>
+            <p className="w-full md:w-67.25 font-['Manrope'] font-medium text-sm md:text-base leading-6 text-[#6d6d6d]">Experience personalized medical care from the comfort of your home.</p>
           </div>
 
 
-          <div className="flex flex-col gap-4 relative justify-center top-15">
-            <h3 className="w-16 h-6 font-['Manrope'] font-bold text-base leading-6 text-[#00A4F4]">Support</h3>
-            <a href="#" className="w-29.25 h-6 font-['Manrope'] font-medium text-base leading-6 text-[#6D6D6D]">Getting Started</a>
-            <a href="#" className="w-10 h-6 font-['Manrope'] font-medium text-base leading-6 text-[#6D6D6D]">FAQS</a>
-            <a href="#" className="w-23.75 h-6 font-['Manrope'] font-medium text-base leading-6 text-[#6D6D6D]">Help Articles</a>
-            <a href="#" className="w-29.25 h-6 font-['Manrope'] font-medium text-base leading-6 text-[#6D6D6D]">Report an issue</a>
-            <a href="#" className="w-35 h-6 font-['Manrope'] font-medium text-base leading-6 text-[#6D6D6D]">Contact Help Desk</a>
+          <div className="flex flex-col gap-4 w-full md:w-auto">
+            <h3 className="font-['Manrope'] font-bold text-sm md:text-base leading-6 text-[#00A4F4]">Support</h3>
+            <a href="#" className="font-['Manrope'] font-medium text-sm md:text-base leading-6 text-[#6D6D6D] hover:text-[#00A4F4] transition">Getting Started</a>
+            <a href="#" className="font-['Manrope'] font-medium text-sm md:text-base leading-6 text-[#6D6D6D] hover:text-[#00A4F4] transition">FAQS</a>
+            <a href="#" className="font-['Manrope'] font-medium text-sm md:text-base leading-6 text-[#6D6D6D] hover:text-[#00A4F4] transition">Help Articles</a>
+            <a href="#" className="font-['Manrope'] font-medium text-sm md:text-base leading-6 text-[#6D6D6D] hover:text-[#00A4F4] transition">Report an issue</a>
+            <a href="#" className="font-['Manrope'] font-medium text-sm md:text-base leading-6 text-[#6D6D6D] hover:text-[#00A4F4] transition">Contact Help Desk</a>
           </div>
 
-          <div className="flex flex-col gap-4 relative justify-center top-15">
-            <h3 className="w-17 h-6 font-['Manrope'] font-bold text-base leading-6 text-[#00A4F4]">Services</h3>
-            <a href="#" className="w-42.5 h-6 font-['Manrope'] font-medium text-base leading-6 text-[#6D6D6D]">Booking appointments</a>
-            <a href="#" className="w-39 h-6 font-['Manrope'] font-medium text-base leading-6 text-[#6D6D6D]">Online consultations</a>
-            <a href="#" className="w-25.25 h-6 font-['Manrope'] font-medium text-base leading-6 text-[#6D6D6D]">Prescriptions</a>
-            <a href="#" className="w-29.5 h-6 font-['Manrope'] font-medium text-base leading-6 text-[#6D6D6D]">Medicine Refills</a>
-            <a href="#" className="w-26.75 h-6 font-['Manrope'] font-medium text-base leading-6 text-[#6D6D6D]">Medical Notes</a>
+          <div className="flex flex-col gap-4 w-full md:w-auto">
+            <h3 className="font-['Manrope'] font-bold text-sm md:text-base leading-6 text-[#00A4F4]">Services</h3>
+            <a href="#" className="font-['Manrope'] font-medium text-sm md:text-base leading-6 text-[#6D6D6D] hover:text-[#00A4F4] transition">Booking appointments</a>
+            <a href="#" className="font-['Manrope'] font-medium text-sm md:text-base leading-6 text-[#6D6D6D] hover:text-[#00A4F4] transition">Online consultations</a>
+            <a href="#" className="font-['Manrope'] font-medium text-sm md:text-base leading-6 text-[#6D6D6D] hover:text-[#00A4F4] transition">Prescriptions</a>
+            <a href="#" className="font-['Manrope'] font-medium text-sm md:text-base leading-6 text-[#6D6D6D] hover:text-[#00A4F4] transition">Medicine Refills</a>
+            <a href="#" className="font-['Manrope'] font-medium text-sm md:text-base leading-6 text-[#6D6D6D] hover:text-[#00A4F4] transition">Medical Notes</a>
           </div>
 
-          <div className="flex flex-col gap-4 relative justify-center top-15">
-            <h3 className="w-10.5 h-6 font-['Manrope'] font-bold text-base leading-6 text-[#00A4F4]">Legal</h3>
-            <a href="#" className="w-36.5 h-6 font-['Manrope'] font-medium text-base leading-6 text-[#6D6D6D]">Terms & Conditions</a>
-            <a href="#" className="w-25.5 h-6 font-['Manrope'] font-medium text-base leading-6 text-[#6D6D6D]">Privacy Policy</a>
-            <a href="#" className="w-26.5 h-6 font-['Manrope'] font-medium text-base leading-6 text-[#6D6D6D]">Cookie Notice</a>
-            <a href="#" className="w-36.75 h-6 font-['Manrope'] font-medium text-base leading-6 text-[#6D6D6D]">Cookie Preferences</a>
-            <a href="#" className="w-23.75 h-6 font-['Manrope'] font-medium text-base leading-6 text-[#6D6D6D]">Trust Center</a>
+          <div className="flex flex-col gap-4 w-full md:w-auto">
+            <h3 className="font-['Manrope'] font-bold text-sm md:text-base leading-6 text-[#00A4F4]">Legal</h3>
+            <a href="#" className="font-['Manrope'] font-medium text-sm md:text-base leading-6 text-[#6D6D6D] hover:text-[#00A4F4] transition">Terms & Conditions</a>
+            <a href="#" className="font-['Manrope'] font-medium text-sm md:text-base leading-6 text-[#6D6D6D] hover:text-[#00A4F4] transition">Privacy Policy</a>
+            <a href="#" className="font-['Manrope'] font-medium text-sm md:text-base leading-6 text-[#6D6D6D] hover:text-[#00A4F4] transition">Cookie Notice</a>
+            <a href="#" className="font-['Manrope'] font-medium text-sm md:text-base leading-6 text-[#6D6D6D] hover:text-[#00A4F4] transition">Cookie Preferences</a>
+            <a href="#" className="font-['Manrope'] font-medium text-sm md:text-base leading-6 text-[#6D6D6D] hover:text-[#00A4F4] transition">Trust Center</a>
           </div>
 
-          <div className="absolute left-25 top-89 w-291.5 h-0 border-t-2 border-[#B6E6FF]"></div>
+          <div className="w-full h-0 border-t-2 border-[#B6E6FF] col-span-1 md:col-span-2 lg:col-span-4 mt-4 md:mt-0"></div>
         </div>
 
         {/* icons  and */}
-        <div className="absolute top-94 left-25 right-25 flex items-center justify-between">
+        <div className="relative top-8 flex flex-col lg:flex-row max-lg:justify-center max-lg:items-center items-center justify-between gap-6 lg:gap-0 px-4 md:px-8 pt-6 max-w-7xl mx-auto">
           <div className="flex gap-6">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-6 h-6 flex items-center justify-center hover:opacity-70 transition-opacity">
               <svg className="w-8 h-8 fill-[#00A4F4]" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
