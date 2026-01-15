@@ -98,7 +98,7 @@ export default function Header() {
       </div>
 
       {/* hero section */}
-      <section className="relative w-full h-auto min-h-200 top-5 overflow-hidden">
+      <section className="relative w-full h-auto min-h-200 top-0 overflow-hidden">
         {/* Desktop & Tablet Hero */}
         <div className="hidden md:grid relative top-20 max-w-7xl h-full mx-auto px-4 py-16 grid-cols-2 gap-12 items-center">
 
@@ -107,25 +107,25 @@ export default function Header() {
             <h1 className="relative left-10 font-manrope font-bold max-w-[400px] text-2xl md:text-3xl lg:text-[38px] leading-tight text-[#3D3D3D] md:leading-[48px] w-full">
               Your <span className="font-extrabold bg-[linear-gradient(100.68deg,#0179B4_20.59%,#88D8FF_86.44%)] bg-clip-text text-transparent">trusted partner</span> in digital healthcare.
             </h1>
-            <p className="relative left-10 font-manrope max-w-[552px] text-sm md:text-base lg:text-[16px] leading-6 md:leading-7 text-[#4F4F4F] w-full">
+            <p className="relative left-10 top-5 font-manrope max-w-[552px] text-sm md:text-base lg:text-[16px] leading-6 md:leading-7 text-[#4F4F4F] w-full">
               <span className="font-bold text-[#0084D4]">Empowering Your Health at Every Step.</span> Experience personalized medical care from the comfort of your home. Connect with <span className="font-bold text-[#0084D4]">certified doctors</span>, manage prescriptions, and schedule appointments with ease. Ready to take control of your health? <span className="font-bold text-[#0084D4]">Get started</span> or book an appointment today.
             </p>
             <div className="flex flex-col gap-4 w-full">
               <a
                 href="#find-doctors"
-                className="relative left-10 top-10 h-12 md:h-[56px] lg:h-[68px] inline-flex items-center justify-center gap-3 rounded-xl bg-[linear-gradient(101.91deg,#A7E2FF_0%,#0095DE_87.74%)] px-6 md:px-8 lg:pt-5 lg:pr-9 lg:pb-5 lg:pl-9 text-base md:text-lg lg:text-xl font-manrope font-bold text-white shadow-[-8px_8px_28px_rgba(0,0,0,0.06)] transition hover:translate-y-[-2px] w-3/5"
+                className="relative left-10 top-18 h-12 md:h-[56px] lg:h-[68px] inline-flex items-center justify-center gap-3 rounded-xl bg-[linear-gradient(101.91deg,#A7E2FF_0%,#0095DE_87.74%)] px-6 md:px-8 lg:pt-5 lg:pr-9 lg:pb-5 lg:pl-9 text-base md:text-lg lg:text-xl font-manrope font-bold text-white shadow-[-8px_8px_28px_rgba(0,0,0,0.06)] transition hover:translate-y-[-2px] w-3/5"
               >
                 Book an appointment
                 <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fillRule="evenodd" clipRule="evenodd" d="M2.20024 0C1.64107 0 1.09064 0.201675 0.673187 0.582022C0.253197 0.964914 0 1.50229 0 2.08123C0 2.66018 0.253102 3.19747 0.673092 3.58036L6.28019 8.69064C6.46671 8.86063 6.46671 9.15417 6.28019 9.32415L0.667601 14.4394L0.662199 14.4445C0.25322 14.8305 0.0108525 15.3649 0.0163097 15.9373C0.0217669 16.5096 0.274136 17.0393 0.689456 17.4178C1.10224 17.794 1.64528 17.9956 2.19829 17.9999C2.75128 18.0043 3.29734 17.8114 3.71635 17.4426L3.72191 17.4377L11.327 10.5064C11.747 10.1235 12 9.58634 12 9.0074C12 8.42845 11.7469 7.89116 11.3269 7.50827L3.72729 0.582022C3.30984 0.201675 2.7594 0 2.20024 0Z" fill="white" />
                 </svg>
               </a>
-              <p className="relative left-10 top-12 text-xs md:text-sm font-manrope font-semibold text-[#B0B0B0] w-full">
+              <p className="relative left-10 top-18 text-xs md:text-sm font-manrope font-semibold text-[#B0B0B0] w-full">
                 Trusted by millions across the globe:
               </p>
 
               {/* social media icons */}
-              <div className="relative left-10 top-10 flex flex-wrap items-center gap-x-5 gap-y-4 w-full">
+              <div className="relative left-10 top-20 flex flex-wrap items-center gap-x-5 gap-y-4 w-full">
                 <svg className="w-7 h-7 sm:w-8 sm:h-8 md:w-9 md:h-9 lg:w-[35px] lg:h-[33px]" viewBox="0 0 35 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M34.2222 26.4298C34.2222 27.6915 33.5291 30.121 31.9718 31.4555C31.6603 31.6985 31.3489 31.5614 31.4858 31.2073C31.9393 30.0828 32.9764 27.4815 32.4903 26.8828C32.1464 26.4281 30.726 26.4628 29.5143 26.5669C28.9616 26.6381 28.4755 26.6711 28.099 26.7492C27.7499 26.7769 27.6798 26.4663 28.0289 26.2233C28.4835 25.8979 28.986 25.6472 29.5177 25.4806C31.4858 24.8836 33.7602 25.2428 34.087 25.6246C34.1486 25.6975 34.2222 25.904 34.2222 26.4298ZM30.933 28.6737C30.4817 29.0236 30.0077 29.3425 29.5143 29.6282C25.8829 31.8408 21.1784 33 17.0934 33C10.5167 33 4.63484 30.541 0.171663 26.4264C-0.211677 26.1105 0.104921 25.6524 0.553292 25.9006C5.36216 28.7466 11.3142 30.4681 17.475 30.4681C21.3529 30.4681 25.532 29.7323 29.5143 28.1496C29.7933 28.0438 30.1047 27.8997 30.3768 27.7991C31.0049 27.5127 31.5577 28.219 30.933 28.6737ZM20.374 9.53245C20.374 7.72591 20.4459 6.66213 19.8555 5.74932C19.3318 4.9979 18.43 4.5467 17.1704 4.61785C15.8048 4.6942 14.3381 5.60181 13.9651 7.26604C13.8915 7.64782 13.6724 8.02267 13.2172 8.10423L9.0501 7.56626C8.75233 7.49684 8.29882 7.26604 8.44771 6.66213C9.34274 1.88809 13.3661 0.223864 17.1721 0H18.0654C20.1533 0 22.8367 0.605648 24.5531 2.19352C26.6358 4.16491 26.4134 6.8131 26.4134 9.69036V16.5052C26.4134 18.5495 27.2314 19.4554 28.0528 20.5209C28.2753 20.9009 28.3523 21.3487 27.9775 21.6575C26.8994 22.6323 25.8057 23.5892 24.6969 24.5279C24.3974 24.7587 23.8601 24.783 23.653 24.606C22.3352 23.4866 22.0135 22.8654 21.1972 21.7287C19.7768 23.2402 18.584 24.0749 17.1653 24.5279C16.1676 24.7846 15.1415 24.9106 14.1123 24.9027C10.5355 24.9027 7.70328 22.6415 7.70328 18.1694C7.70328 14.6136 9.56864 12.1963 12.3239 11.0526C15.0792 9.90729 19.0837 9.54286 20.374 9.53592M19.5577 18.546C20.4476 17.0328 20.374 15.7937 20.374 13.0188C19.2583 13.0188 18.139 13.0969 17.1721 13.3277C15.3838 13.8535 13.9634 14.9937 13.9634 17.4145C13.9634 19.3061 14.9354 20.5938 16.5749 20.5938C16.8008 20.5938 16.9993 20.566 17.1704 20.5157C18.317 20.1929 19.0324 19.6098 19.5577 18.546Z" fill="black" />
                 </svg>
@@ -241,8 +241,8 @@ export default function Header() {
 
         {/* decoration */}
         {/* Vector01 SVG image */}
-        <img src={vector01} alt="Vector graphic" className='hidden md:block absolute top-40 w-[1456.2px] h-[627px]' />
-        
+        <img src={vector01} alt="Vector graphic" className='hidden md:block absolute top-70 w-[1456.2px] h-[627px]' />
+
         {/* Mobile Hero */}
         <div className="md:hidden flex flex-col relative max-w-7xl mx-auto px-4 py-8 gap-8">
           {/* right column on top */}
@@ -401,9 +401,9 @@ export default function Header() {
       </section>
 
       {/*Appointment Booking Section */}
-      <section className="relative -top-25 w-full min-h-[120px] sm:min-h-[220px] md:min-h-[320px] lg:min-h-[380px] max-h-full py-4 px-2 mb-6 sm:py-8 sm:px-4 sm:mb-10 md:py-12 md:px-8 md:mb-12 lg:py-16 lg:px-12 lg:mb-16 flex justify-center items-center">
+      <section className="w-full min-h-[120px] sm:min-h-[220px] md:min-h-[260px] lg:min-h-[260px] max-h-full py-4 px-2 mb-6 sm:py-8 sm:px-4 sm:mb-10 md:py-12 md:px-8 md:mb-12 lg:py-16 lg:px-12 lg:mb-16 flex justify-center items-center">
         {/* Desktop/Tablet Appointment Form */}
-        <div className="hidden md:flex w-full max-w-[1166px] min-h-[280px] box-border rounded-[28px] border-2 border-[#95DDFF] bg-[radial-gradient(114.87%_113.36%_at_40.95%_-10.45%,#FFFFFF_32.81%,#F8FDFF_97.64%)] shadow-[3.12195px_9.36585px_21.8537px_rgba(0,0,0,0.06)] z-10 p-10 lg:p-16 flex-col justify-center gap-8">
+        <div className="relative -top-30 hidden md:flex w-full max-w-[1166px] min-h-[280px] box-border rounded-[28px] border-2 border-[#95DDFF] bg-[radial-gradient(114.87%_113.36%_at_40.95%_-10.45%,#FFFFFF_32.81%,#F8FDFF_97.64%)] shadow-[3.12195px_9.36585px_21.8537px_rgba(0,0,0,0.06)] z-10 p-10 lg:p-16 flex-col justify-center gap-8">
           <div className="flex items-center">
             <h2 className="relative left-10 block text-[#0069AB] font-manrope font-bold text-3xl lg:text-[32px] leading-[40px] w-full lg:w-[698px] h-auto lg:h-[40px]">
               Easily book an appointment in 3 simple steps.
@@ -548,9 +548,6 @@ export default function Header() {
             </a>
           </form>
         </div>
-      
-      {/* decoration */}
-      <img src={dotGrid} alt="Dot grid decoration" className='hidden md:block absolute top-[300px] left-[50px] w-[139.46px] h-[68.46px]' />
       </section>
 
     </header >
