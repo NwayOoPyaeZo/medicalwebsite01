@@ -17,6 +17,7 @@ function App() {
         <PeopleSection />
         <ContactUs />
       </main>
+      <div className="h-24 lg:h-32" />
       <Footer />
     </div>
   )
